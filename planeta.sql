@@ -8,6 +8,6 @@ CREATE TABLE Planeta(
     x DOUBLE,
     y DOUBLE,
     z DOUBLE,
-    PRIMARY KEY(ID)
+    PRIMARY KEY(id)
     );
 
