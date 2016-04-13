@@ -21,7 +21,7 @@ public class PlanetaDAO {
             coordenadas[0] = resultado.getInt("x");
             coordenadas[1] = resultado.getInt("y");
             coordenadas[2] = resultado.getInt("z");
-            novo = new Planeta(resultado.getString("nome"), resultado.getString("tipo"), coordenadas);
+            novo = new Planeta(resultado.getString("nomePlaneta"), resultado.getString("tipo"), coordenadas);
         }
         resultado.close();
         estato.close();
