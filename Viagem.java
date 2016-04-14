@@ -9,7 +9,8 @@ import java.util.Date;
 
 /**
  *
- * @author User
+ * @author Diter Martim Wieser
+ * @since 13/04/2016
  */
 public class Viagem {
         
